@@ -1,0 +1,152 @@
+body {
+    background-image: url(/public/media/Landing\ Page\ NFT.png);
+    background-size: 100%;
+    font-family: "Poppins";
+    background-color: #120A14;
+}
+
+/* Navbar */
+a.nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: all 1s;
+}
+
+a.nav-link:hover {
+    color: #FF4262
+}
+
+.navbar ul {
+    gap: 40px
+}
+
+.navbar {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar.shrink {
+  background-color: #FF4262;
+  padding-bottom: 15px;
+
+}
+
+
+
+/* Header 1 */
+h1 {
+    font-size: 70px
+}
+
+.lead {
+    font-size: 16px
+}
+
+.btn-custom {
+    background-image: linear-gradient(to left, #ff505f, #ff5674, #ff5e88, #ff689b, #ff72ad, #f971b7, #f271c2, #e972cc, #d469d3, #ba63db, #995fe3, #6c5eea);
+    color: white;
+    font-size: 16px;
+    padding: 15px 35px;
+    transition: all 3s;
+    font-weight: bold;
+    text-shadow: 1px 0px 5px rgba(0, 0, 0, 0.551);
+}
+
+.btn-custom:hover {
+    transition: all 3s;
+    background-image: radial-gradient(circle, #ff505f, #ff5674, #ff5e88, #ff689b, #ff72ad, #f971b7, #f271c2, #e972cc, #d469d3, #ba63db, #995fe3, #6c5eea);
+}
+
+
+/* Collection */
+.collection h2 {
+    font-size: 70px;
+
+}
+
+.collection p {
+    font-size: 22px
+}
+
+.button-custom {
+  align-items: center;
+  background-image: linear-gradient(144deg,#FF4060, #FF81C5 50%,#6D5EEA);
+  border: 0;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  text-transform: uppercase;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-custom:active,
+.button-custom:hover {
+  outline: 0;
+}
+
+.button-custom span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-custom:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-custom {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+.cat{
+    color: #FF4060;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.collection h4{
+    font-size: 45px;
+}
+
+.element-1 img{
+    width: 100%
+}
+
+
+.wrap {
+margin-top: 130px;
+    padding-top: 1px;
+
+    background: linear-gradient(to right, red, purple);
+    padding-top: 1px;
+  }
+  
+  .contents {
+    background: #222;
+    color: white;
+    padding-top: 1px;
+  }
+
+  .bg-footer
+  {
+    background: #120A14;
+  }
