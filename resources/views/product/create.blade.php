@@ -1,4 +1,16 @@
 <x-layout title="Create NFT">
+    <div class="container">
+        <div class="row pt-5 mt-5 align-items-center">
+            <div class="col-12 d-flex justify-content-center align-items-center text-center pt-5 mt-5 flex-column">
+                <h1 class="text-white">
+                    Experience the Next Evolution of Collectibles
+                </h1>
+                <img src="/media/frame 14 (1).png" class="img-fluid">
+            </div>
+
+        </div>
+    </div>
+
     <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-12 col-md-6 border rounded shadow bg-white">
@@ -21,7 +33,7 @@
                         <input type="number" class="form-control" name="highest_bid" step="0.5" max="9999">
                     </div>
                     <div class="mb-3 text-center">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="button-custom rounded-pill" role="button"><span class="text rounded-pill">Create</span></button>
                     </div>
                 </form>
             </div>

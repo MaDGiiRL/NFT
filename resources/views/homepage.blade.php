@@ -1,4 +1,24 @@
 <x-layout title="Homepage">
+    <div class="container pt-5 mt-5">
+        <div class="row pt-5 mt-5">
+            <div class="col-12 d-flex justify-content-center pt-5 mt-5">
+                <img src="/media/Group (1).png" alt="diamond" width="40px">
+            </div>
+            <div class="col-12 text-center pt-2 mt-4">
+                <h1 class="text-white">
+                    Discover and collect<br> super rare NFTs
+                </h1>
+                <p class="lead text-white pt-2">
+                    Digital marketplace for crypto collectibles and NFTs. Buy, sell,<br>
+                    and discover exclusive digital assets today.
+                </p>
+                <button class="btn-custom rounded-pill">Connect Wallet</button>
+            </div>
+            <div class="col-12 d-flex justify-content-center pt-5 mt-5">
+                <img src="/media/Characters.png" alt="character" width="1050">
+            </div>
+        </div>
+    </div>
 
     <!-- slider -->
     <div class="container-fluid bg-slider d-flex justify-content-center align-items-center p-5">

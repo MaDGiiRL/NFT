@@ -21,21 +21,21 @@ AOS.init({
 
 
 //show more
-document.querySelectorAll('.show-more').forEach(button => {
-    button.addEventListener('click', function (e) {
-        e.preventDefault();
-        let cardText = this.parentElement;
-        let shortDesc = cardText.querySelector('.short-desc');
-        let fullDesc = cardText.querySelector('.full-desc');
+// document.querySelectorAll('.show-more').forEach(button => {
+//     button.addEventListener('click', function (e) {
+//         e.preventDefault();
+//         let cardText = this.parentElement;
+//         let shortDesc = cardText.querySelector('.short-desc');
+//         let fullDesc = cardText.querySelector('.full-desc');
 
-        if (fullDesc.style.display === "none") {
-            shortDesc.style.display = "none";  // Nasconde la descrizione breve
-            fullDesc.style.display = "block"; // Mostra la descrizione lunga con scroll
-            this.textContent = "Show Less";
-        } else {
-            shortDesc.style.display = "inline";  // Mostra la descrizione breve
-            fullDesc.style.display = "none";    // Nasconde la descrizione lunga
-            this.textContent = "Show More";
-        }
-    });
-});
+//         if (fullDesc.style.display === "none") {
+//             shortDesc.style.display = "none";  // Nasconde la descrizione breve
+//             fullDesc.style.display = "block"; // Mostra la descrizione lunga con scroll
+//             this.textContent = "Show Less";
+//         } else {
+//             shortDesc.style.display = "inline";  // Mostra la descrizione breve
+//             fullDesc.style.display = "none";    // Nasconde la descrizione lunga
+//             this.textContent = "Show More";
+//         }
+//     });
+// });

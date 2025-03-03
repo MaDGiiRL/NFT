@@ -25,8 +25,6 @@
     <x-navbar />
 
 
-    <!-- header componenet -->
-    <x-header />
 
 
     <!-- views -->

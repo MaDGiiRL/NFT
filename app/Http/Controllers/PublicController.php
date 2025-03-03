@@ -17,6 +17,7 @@ class PublicController extends Controller
 
         $products = Product::all();
         // dd($products);
+
         return view('characters', compact('products'));
     }
 }

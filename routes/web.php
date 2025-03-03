@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\NftController;
 use App\Http\Controllers\PublicController;
 use App\Http\Controllers\ProductController;
 
@@ -9,3 +10,6 @@ Route::get('/characters', [PublicController::class, 'characters'])->name('charac
 
 Route::get('/product/create', [ProductController::class, 'create'])->name('product.create');
 Route::post('/product/store', [ProductController::class, 'store'])->name('product.store');
+Route::get('/product/show/{product}', [ProductController::class, 'show'])->name('product.show');
+
+

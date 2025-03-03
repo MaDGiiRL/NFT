@@ -22,15 +22,27 @@ class ProductController extends Controller
         $remaining_time = $request->input('remaining_time');
         $highest_bid = $request->input('highest_bid');
 
-        $product = new Product();
-        $product->name = $name;
-        $product->description = $description;
-        $product->remaining_time = $remaining_time;
-        $product->highest_bid = $highest_bid;
+        //Metodo save 
+        // $product = new Product();
+        // $product->name = $name;
+        // $product->description = $description;
+        // $product->remaining_time = $remaining_time;
+        // $product->highest_bid = $highest_bid;
+        // $product->save();
 
-        $product->save();
+        //Mass assignment
+        Product::create([
+            'name' => $name,
+            'description' => $description,
+            'remaining_time' => $remaining_time,
+            'highest_bid' => $highest_bid
+        ]);
 
         return redirect()->route('characters');
+    }
 
+    public function show(Product $product)
+    {
+        return view('product.show', compact('product'));
     }
 }
