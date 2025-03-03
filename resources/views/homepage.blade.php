@@ -68,4 +68,5 @@
     <div class="element-1 container-fluid">
         <img src="/media/Effects 1.png" class="img-fluid">
     </div>
+
 </x-layout>
