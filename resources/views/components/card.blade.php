@@ -1,4 +1,5 @@
-<div class="card">
+<div class="card" data-aos="zoom-in" data-aos-easing="linear"
+data-aos-duration="300">
     <div class="card-body">
         <h5 class="card-title">{{ $product->name }}</h5>
         <p class="card-text">

@@ -3,7 +3,7 @@
     <div class="container my-5 pt-5 mt-5">
         <div class="row justify-content-center align-items-center">
             <div class="col-12  my-2">
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <div class="card-body">
                         <h5 class="card-title">{{ $product->name }}</h5>
                         <p class="card-text">
